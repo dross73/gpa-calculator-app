@@ -1,0 +1,17 @@
+/*
+============================================
+; Title: Exercise 7.2 - Reactive Forms
+; Author: Dan Ross
+; Date: 13 Feb 2021
+; Modified By: Dan Ross
+; Description: This is the base layout component CSS stylesheet.
+;===========================================
+*/
+.logo {
+  margin-top: 5px;
+}
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+/*
+============================================
+; Title: Exercise 7.2 - Reactive Forms
+; Author: Dan Ross
+; Date: 13 Feb 2021
+; Modified By: Dan Ross
+; Description: This is the global CSS file.
+;===========================================
+*/
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

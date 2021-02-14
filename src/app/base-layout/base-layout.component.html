@@ -1,0 +1,37 @@
+<!-- /*
+============================================
+; Title: Exercise 7.2 - Reactive Forms
+; Author: Dan Ross
+; Date: 13 Feb 2021
+; Modified By: Dan Ross
+; Description: This is the base layout component HTML page.
+;===========================================
+*/ -->
+<!-- Start toolbar here -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo">
+      <img src="./assets/gpa-calculator-app.png" height="80" alt="">
+    </div>
+    <div style="width: 80%;">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/">Home</button>
+        <button mat-button (click)="signOut()">Sign Out</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar><!-- End toolbar here -->
+
+<br>
+<div fxLayout="row wrap">
+  <mat-card class="main-container">
+    <!-- This will pull in our title from the base layout component using the assignment variable.   -->
+    <mat-card-title>{{ assignment }}</mat-card-title>
+    <br>
+    <br>
+    <mat-card-content>
+      <router-outlet></router-outlet>
+    </mat-card-content>
+  </mat-card>
+</div>
+
